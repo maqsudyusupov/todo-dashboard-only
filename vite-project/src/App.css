@@ -1,0 +1,39 @@
+body, html {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* navbar component */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* menu and task bar components */
+.main-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  /* overflow-y: auto; */
+  /* margin-left: 0; */
+}
+
+.navbar {
+  width: 100%;
+}
+
+.DashMenu {
+  width: 200px; /* Example width */
+  /* height: 100vh; */
+}
+
+.DashTasks {
+  flex: 1; 
+  overflow-y: auto;
+
+}

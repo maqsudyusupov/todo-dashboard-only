@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.taskSection {
+    height: 89.5vh;
+    width: 100%;
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.time {
+    margin: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5200ff;
+}
+
+.timeIndicator {
+    margin: 0;
+    align-items: center;
+    color: #ffffff;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.block {
+    margin-top: 10px;
+    margin: 10px 0px 0px 0px;
+    border: 2px solid #5200ff;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px
+}
+
+.list {
+    height: 60px;
+    display: flex;
+    margin-right: 0;
+    justify-content: space-between;
+}
+
+.groupName {
+    padding: 0px 0px 0px 10px;
+    font-size: 28px;
+    transform: translateY(-25px);
+}
+
+.material-symbols-outlined {
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.tasks {
+    margin: 0px 20px 0px 0px;
+}
+
+.demoTask {
+    display: flex;
+    justify-content: left;
+    margin: 20px 0px 0px 20px;
+    border: 1px solid #5200ff;
+    border-radius: 5px;
+    font-weight: 100;
+    height: 25px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.demoTask:hover {
+    background-color: #5200ff;
+}
+
+.testAddTask {
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
